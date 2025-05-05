@@ -18,7 +18,7 @@ A modular and smart Bash-based backup automation tool built for the Amazon Q Dev
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/q-backup-manager.git
+git clone https://github.com/puru54/q-backup-manager.git
 cd q-backup-manager
 chmod +x backup.sh
 ```
