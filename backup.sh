@@ -27,7 +27,7 @@ full_backup() {
     if $DRY_RUN; then
         log "DRYRUN" "Would archive entire system to $BACKUP_DIR/$target" $YELLOW
     else
-        sudo tar -czf "$BACKUP_DIR/$target" /etc /home /var
+        tar -czf "$BACKUP_DIR/$target" /etc /home /var
         log "INFO" "Backup saved to $BACKUP_DIR/$target" $GREEN
     fi
 }
